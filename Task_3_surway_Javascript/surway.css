@@ -1,0 +1,96 @@
+@font-face {
+    font-family: titleFont;
+    src: url(Lunchtype22-Medium.ttf);
+ }
+
+ @font-face {
+    font-family: tableFont;
+    src: url(EncodeSans-Regular.ttf);
+ }
+
+h1{
+    margin-top:50px;
+    font-family:titleFont;
+    color:#3c2f2d;
+} 
+
+form{
+    font-family:tableFont;
+    color:#8d7874 !important;
+    font-weight: none !important;
+}
+
+tbody, td, tfoot, th, thead, tr{
+    border: none !important;
+}
+
+tr{
+    height: 56px;
+    vertical-align: middle;
+}
+
+td{
+    text-align: center;
+}
+
+thead>tr>th{
+    text-align: center;
+}
+
+.col{
+    text-align:left;
+}
+.table-striped>tbody>tr:nth-of-type(even)>* {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: var(--bs-table-striped-color);
+    background-color: #ebebeb;
+} 
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: none !important;
+    color: none !important;
+    background-color: #f9f9f9;
+}
+
+.form-check-input {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: transparent !important;
+    border: 2px solid #9f9d9e;
+}
+
+.form-check-input:hover{
+    background-color:blue !important;
+}
+
+.form-check-input:checked {
+    background-color: darkblue !important;
+    border-color: #0d6efd !important;
+}
+
+.col-6 {
+    width: 20%;
+}
+
+.d-grid{
+    margin-top: 40px;
+}
+
+.result-table{
+    visibility: hidden;
+}
+
+.result-table.success{
+    visibility: visible;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+    border : 2px solid #8d7874 !important;   
+}
+
+.result-table.success tr{
+    border : 2px solid #8d7874 !important; 
+    font-size: 20px;
+    font-family:titleFont;
+    color:#3c2f2d !important;
+}
+
