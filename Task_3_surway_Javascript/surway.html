@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surway</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="surway.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Please indicate your professional usage level of the following social
+        media platforms and content sharing tools.
+      </h1>
+      <form id="form" onsubmit="onSubmit(event)">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Currently use</th>
+              <th scope="col">Have used in the past</th>
+              <th scope="col">Plan to check it out</th>
+              <th scope="col">Don't plan to use</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forFacebook"
+                  >Facebook</label
+                >
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="facebook"
+                  id="forFacebook"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="facebook"
+                  id="forFacebook"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="facebook"
+                  id="forFacebook"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="facebook"
+                  id="forFacebook"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forTwitter">Twitter</label>
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="twitter"
+                  id="forTwitter"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="twitter"
+                  id="forTwitter"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="twitter"
+                  id="forTwitter"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="twitter"
+                  id="forTwitter"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forGoogle">Google+</label>
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="google"
+                  id="forGoogle"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="google"
+                  id="forGoogle"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="google"
+                  id="forGoogle"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="google"
+                  id="forGoogle"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forLinkedin"
+                  >LinkedIn</label
+                >
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="linkedin"
+                  id="forLinkedin"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="linkedin"
+                  id="forLinkedin"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="linkedin"
+                  id="forLinkedin"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="linkedin"
+                  id="forLinkedin"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forYammer">Yammer</label>
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="yammer"
+                  id="forYammer"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="yammer"
+                  id="forYammer"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="yammer"
+                  id="forYammer"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="yammer"
+                  id="forYammer"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forSocial"
+                  >Social Bookmarking(Example: Dilgo or Delicious)</label
+                >
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="social"
+                  id="forSocial"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="social"
+                  id="forSocial"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="social"
+                  id="forSocial"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="social"
+                  id="forSocial"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forBlogs"
+                  >Blogs(Wordpress, Blogger)</label
+                >
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="blogs"
+                  id="forBlogs"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="blogs"
+                  id="forBlogs"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="blogs"
+                  id="forBlogs"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="blogs"
+                  id="forBlogs"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forWiki"
+                  >Wiki(Wikispaces, PBworks)</label
+                >
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="wiki"
+                  id="forWiki"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="wiki"
+                  id="forWiki"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="wiki"
+                  id="forWiki"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="wiki"
+                  id="forWiki"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forRss"
+                  >RSS(Feedly, Netvibes)</label
+                >
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="rss"
+                  id="forRss"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checke2"
+                  type="radio"
+                  name="rss"
+                  id="forRss"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="rss"
+                  id="forRss"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="rss"
+                  id="forRss"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forNing"
+                  >NING(Educators)</label
+                >
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="ning"
+                  id="forNing"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="ning"
+                  id="forNing"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="ning"
+                  id="forNing"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="ning"
+                  id="forNing"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <label class="form-check-label" for="forCloud"
+                  >Cloud Storage & Sharing (Google Apps, Office 365)</label
+                >
+              </th>
+              <td>
+                <input
+                  class="form-check-input checked1"
+                  type="radio"
+                  name="cloud"
+                  id="forCloud"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked2"
+                  type="radio"
+                  name="cloud"
+                  id="forCloud"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked3"
+                  type="radio"
+                  name="cloud"
+                  id="forCloud"
+                />
+              </td>
+              <td>
+                <input
+                  class="form-check-input checked4"
+                  type="radio"
+                  name="cloud"
+                  id="forCloud"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+        </div>
+      </form>
+
+      <!-- create table -->
+      <table class="table table-bordered result-table" id="result-table">
+        <thead>
+          <tr>
+            <th scope="col">Currently use</th>
+            <th scope="col">Have used in the past</th>
+            <th scope="col">Plan to check it out</th>
+            <th scope="col">Don't plan to use</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+
+    <script src="surway.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+.title{
+    font-family: Arial;
+    background-color: #c5c5d7;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #3d3d3f;
+    font-size:35px;
+}
+.row+.row{
+    margin-top: 5rem;
+}
+
+.main-content{
+    margin-top:3%;
+    font-size:30px;
+    padding: 0% 15%;
+    font-family: Arial;
+    color: #3d3d3f;
+}
+
+.col-6{
+    margin-left: 20px;
+}
+
+.input-field {
+    position: relative;
+    width: 100%;
+    padding: 0% 10% 0% 10%;
+    border-radius: 10px;
+    border: 2px solid #979797;
+    text-align: center;
+}
+
+/* make the native arrow invisible and stretch it over the whole field so you can click anywhere in the input field to trigger the native datepicker*/
+.input-field::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    color: transparent;
+    background: transparent;
+}
+
+
+.btn{
+    margin-top: 13%;
+    width: 40% !important;
+    border-radius: 10px !important;
+    background-color: #ececec !important;
+    color: black !important;
+    font-family: Arial !important;
+    font-size: 28px !important;
+    padding: 0 !important;
+    border: 2px solid #828282 !important;
+    margin-left: 30%;
+}
+
+.diff-days{
+    visibility: hidden;
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.diff-days.success{
+    visibility: visible;
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.input-field.success{
+    visibility:visible;
+    width: 50%;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #979797;
+    margin-left: 20px;
+    text-align: center;
+}
