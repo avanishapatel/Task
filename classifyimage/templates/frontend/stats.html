@@ -1,0 +1,59 @@
+{% extends "base.html"%} {% load static %} {% block title %}Stats{% endblock %}
+{% block content %} {% block css %}
+<link
+  href="{% static 'css/frontend/stats.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  href="{% static 'css/frontend/nav.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap4.min.css"
+  rel="stylesheet"
+  type="text/css"
+/>
+{% endblock %}
+
+<h1 id="header">Stats</h1>
+{% regroup tag_data by tag_id as tags %}
+<div id="stats-table">
+  <table class="table table-bordered" id="example">
+    <thead>
+      <tr>
+        <th scope="col">Tag</th>
+        <th scope="col">Photo Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for tag in image %}
+      <tr>
+        <td>{{ tag.tag__tag_name }}</td>
+        <td>{{ tag.count }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script src="{% static 'js/frontend/stats.js' %}"></script>
+<script
+  crossorigin="anonymous"
+  src="https://code.jquery.com/jquery-3.5.1.js"
+></script>
+<script
+  crossorigin="anonymous"
+  src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"
+></script>
+<script
+  crossorigin="anonymous"
+  src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap4.min.js"
+></script>
+{% endblock %}

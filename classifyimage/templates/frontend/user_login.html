@@ -1,0 +1,33 @@
+{% extends "base.html"%} {% load crispy_forms_tags %} {% load static %}
+{% block title %}Signin{% endblock %} {% block content %} {% block css %}
+<link
+  href="{% static 'css/frontend/signin.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  href="{% static 'css/frontend/base.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  href="{% static 'css/frontend/nav.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+{% endblock %}
+<div id="parent">
+  <form id="form" method="post" action="{% url 'signin' %}" novalidate>
+    <h1>Sign In</h1>
+    {% csrf_token %} {{ form | crispy}}
+
+    <div id="forgot-pwd">
+      <a href="{% url 'password_reset'%}">Forgot Password?</a>
+    </div>
+    <button id="submit-btn" class="btn btn-primary" type="submit">
+      Sign In
+    </button>
+  </form>
+</div>
+
+{% endblock %}

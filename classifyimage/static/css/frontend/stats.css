@@ -1,0 +1,13 @@
+h1{
+    font-weight: bold !important;
+    margin: 3% auto;
+    text-align: center;
+    color: #4472c4;
+    font-family: math;
+    margin-bottom: 3% !important;
+    margin-top: 3% !important;
+}
+
+thead{
+background-color: whitesmoke;
+}

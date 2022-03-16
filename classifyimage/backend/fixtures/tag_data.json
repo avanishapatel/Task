@@ -1,0 +1,354 @@
+[
+  {
+    "model": "backend.Tag",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "tag_name": "House"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "tag_name": "Garage"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "tag_name": "Townhouse"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "tag_name": "Mobile/Manufacture"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "tag_name": "Condo/Apartment"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "tag_name": "Yard"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "tag_name": "View"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "tag_name": "Aerial"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "tag_name": "Landscape"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "tag_name": "Lake"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "tag_name": "River"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 12,
+    "fields": {
+      "category": 1,
+      "tag_name": "Harbor"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 13,
+    "fields": {
+      "category": 1,
+      "tag_name": "Ocean"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 14,
+    "fields": {
+      "category": 1,
+      "tag_name": "Beach"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 15,
+    "fields": {
+      "category": 1,
+      "tag_name": "Pool"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 16,
+    "fields": {
+      "category": 1,
+      "tag_name": "Front"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 17,
+    "fields": {
+      "category": 1,
+      "tag_name": "Rear"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 18,
+    "fields": {
+      "category": 1,
+      "tag_name": "Side"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 19,
+    "fields": {
+      "category": 1,
+      "tag_name": "Porch/Deck"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 20,
+    "fields": {
+      "category": 1,
+      "tag_name": "Driveway"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 21,
+    "fields": {
+      "category": 1,
+      "tag_name": "Street"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 22,
+    "fields": {
+      "category": 1,
+      "tag_name": "Community Exterior"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 23,
+    "fields": {
+      "category": 2,
+      "tag_name": "Kitchen"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 24,
+    "fields": {
+      "category": 2,
+      "tag_name": "Dining"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 25,
+    "fields": {
+      "category": 2,
+      "tag_name": "Bedroom"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 26,
+    "fields": {
+      "category": 2,
+      "tag_name": "Bathroom"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 27,
+    "fields": {
+      "category": 2,
+      "tag_name": "Family Room"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 28,
+    "fields": {
+      "category": 2,
+      "tag_name": "Hallway"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 29,
+    "fields": {
+      "category": 2,
+      "tag_name": "Stairs"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 30,
+    "fields": {
+      "category": 2,
+      "tag_name": "Front Door"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 31,
+    "fields": {
+      "category": 2,
+      "tag_name": "Unfinished Basement"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 32,
+    "fields": {
+      "category": 2,
+      "tag_name": "Office"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 33,
+    "fields": {
+      "category": 2,
+      "tag_name": "Closet"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 34,
+    "fields": {
+      "category": 2,
+      "tag_name": "Laundry Room"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 35,
+    "fields": {
+      "category": 2,
+      "tag_name": "Gym"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 36,
+    "fields": {
+      "category": 2,
+      "tag_name": "Garage Interior"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 37,
+    "fields": {
+      "category": 2,
+      "tag_name": "Community Interior"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 38,
+    "fields": {
+      "category": 2,
+      "tag_name": "Interior Archit. Drawing"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 39,
+    "fields": {
+      "category": 2,
+      "tag_name": "Enclosed Porch/Sunroom"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 40,
+    "fields": {
+      "category": 2,
+      "tag_name": "Finished Basement"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 41,
+    "fields": {
+      "category": 2,
+      "tag_name": "Utilities"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 42,
+    "fields": {
+      "category": 2,
+      "tag_name": "Incomplete Construction"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 43,
+    "fields": {
+      "category": 2,
+      "tag_name": "Bar/Wine Cellar"
+    }
+  },
+  {
+    "model": "backend.Tag",
+    "pk": 44,
+    "fields": {
+      "category": 2,
+      "tag_name": "Attic"
+    }
+  }
+]

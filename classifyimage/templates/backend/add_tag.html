@@ -1,0 +1,23 @@
+{% extends "base.html"%}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block title %}Tag{% endblock %}
+{% block content %}
+
+{% block css %}
+<link
+        href="{% static 'css/frontend/signup.css' %}"
+        rel="stylesheet"
+        type="text/css"
+/>
+
+{% endblock %}
+<div id="parent">
+    <form id="form" method="post" novalidate>
+        <h1>Add Tag</h1>
+        {% csrf_token %} {{ form | crispy}}
+        <button class="btn btn-primary" type="submit">Add</button>
+    </form>
+</div>
+<script src="/home/avanisha/Workspace/Django/classifyimage/static/js/frontend/signup.js"></script>
+{% endblock %}

@@ -1,0 +1,15 @@
+.table{
+  visibility: hidden;
+}
+.table.success {
+  visibility: visible;
+
+}
+.table td{
+  vertical-align:top;
+
+}
+
+tbody, td, tfoot, th, thead, tr {
+  border-width: 2px !important;
+}

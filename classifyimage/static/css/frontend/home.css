@@ -1,0 +1,207 @@
+/**
+ * change body style
+ */
+body{
+    background-color:white;
+}
+
+/**
+ * change header
+ */
+h1{
+    font-weight: bold;
+    margin: 3% auto;
+    text-align: center;
+    color: #4472c4;
+    font-family: math;
+}
+
+/**
+ * change in dropdown
+ */
+.dropdown #categories{
+    width: 96%;
+    padding: 2%;
+    margin-bottom: 4%;
+    border-color: #d3d3d3;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.dropdown #categories:focus{
+    border: 2px solid orangered;
+}
+
+.left-side::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: #aaa; /* or add it to the track */
+}
+
+/**
+ * change in tag
+ * col-4
+ */
+.left-side{
+    overflow: auto;
+    height: 500px;
+ }
+
+#selecttag{
+    margin-top: 1%;
+}
+
+#selecttag input{
+    display: block;
+    margin-top: -16%;
+}
+
+
+#selecttag label {
+    display: inline-block;
+    width: 46%;
+    margin: 1% 1% 1% 1%;
+
+    height: 38px;
+    color: #27a0b2;
+    padding-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 90;
+}
+
+.radio-input{
+    height: 37px;
+    width: 189px;
+    border: 2px solid #27a0b2;
+    appearance: none;
+    border-radius: 5px;
+}
+
+.radio-input:hover{
+    border: 2px solid orangered;
+}
+
+.radio-input:checked{
+    border: 2px solid orangered;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/**
+ * change in image
+ * col-8
+ */
+
+ #main{
+    display: flex;
+    flex-direction: row;
+    margin: 1% auto 3% auto;
+}
+
+#select{
+    text-align: right;
+    width: 50%;
+    margin-right: 4%;
+}
+
+#icon{
+    text-align: left;
+    width: 50%;
+}
+
+.fa-solid, .fas {
+    font-style: italic !important;
+}
+
+.image-search{
+    margin: auto 1%;
+}
+
+#getimage{
+    overflow: auto;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+
+#getimage img{
+    width: 20%;
+    margin: 2% auto;
+    margin-top: auto;
+    border-radius: 5px;
+    height: 153px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: inset 10px 10px 50px red;
+}
+
+#getimage .btn-check{
+    position: absolute;
+    clip: auto;
+    pointer-events: none;
+    margin-left: -20%;
+    margin-top: 1%;
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+#getimage .btn-check:checked {
+    background-color: orangered;
+    border-radius: 100%;
+}
+
+#getimage label img:checked {
+    border: 2px solid red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#getimage img:hover{
+    border: 2px solid orangered;
+}
+
+#getimage label{
+    display: inline;
+}
+
+
+#getimage::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: #aaa; /* or add it to the track */
+}
+
+/**
+ * change in submit button
+ */
+#submit-btn{
+    margin: 3% auto;
+    display: block;
+    background: #4472c4;
+    width: 12%;
+    border-radius: 10px;
+    border-color: #728ab3;
+}
+
+#submit-btn:hover{
+    background-color: cornflowerblue;
+    color: black;
+    border-color: slategrey;
+}
+
+#submit-btn:focus{
+    box-shadow:none;
+}
+
+
+
+
+
+

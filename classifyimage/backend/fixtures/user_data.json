@@ -1,0 +1,99 @@
+[
+  {
+    "model": "backend.User",
+    "pk": 1,
+    "fields": {
+      "username": "John",
+      "lastname": "Lennon",
+      "gender": "Male",
+      "email": "john@gmail.com",
+      "phone_number": "9726450537",
+      "password": "John@123"
+    }
+  },
+  {
+    "model": "backend.User",
+    "pk": 2,
+    "fields": {
+      "username": "Virat",
+      "lastname": "Kohli",
+      "gender": "Male",
+      "email": "virat@gmail.com",
+      "phone_number": "9767450540",
+      "password": "Virat@123"
+    }
+  },
+  {
+    "model": "backend.User",
+    "pk": 3,
+    "fields": {
+      "username": "Ricky",
+      "lastname": "Ponting",
+      "gender": "Male",
+      "email": "ricky@gmail.com",
+      "phone_number": "9728458032",
+      "password": "Ricky@123"
+    }
+  },
+  {
+    "model": "backend.User",
+    "pk": 4,
+    "fields": {
+      "username": "Kylie",
+      "lastname": "Grant",
+      "gender": "Female",
+      "email": "kylie@gmail.com",
+      "phone_number": "9789457046",
+      "password": "Kylie@123"
+    }
+  },
+   {
+    "model": "backend.User",
+    "pk": 5,
+    "fields": {
+      "username": "Robert",
+      "lastname": "Williams",
+      "gender": "Male",
+      "email": "robert@gmail.com",
+      "phone_number": "9767458005",
+      "password": "Robert@123"
+    }
+  },
+  {
+    "model": "backend.User",
+    "pk": 6,
+    "fields": {
+      "username": "Kirti",
+      "lastname": "Sharma",
+      "gender": "Female",
+      "email": "kirti@gmail.com",
+      "phone_number": "9796454443",
+      "password": "Kirti@123"
+    }
+  },
+  {
+    "model": "backend.User",
+    "pk": 7,
+    "fields": {
+      "username": "Adhya",
+      "lastname": "Patel",
+      "gender": "Female",
+      "email": "adhya@gmail.com",
+      "phone_number": "9794456452",
+      "password": "Adhya@123"
+    }
+  },
+    {
+    "model": "backend.User",
+    "pk": 8,
+    "fields": {
+      "username": "Rinal",
+      "lastname": "Shah",
+      "gender": "Female",
+      "email": "rinal@gmail.com",
+      "phone_number": "9776453451",
+      "password": "Rinal@123"
+    }
+  }
+]
+

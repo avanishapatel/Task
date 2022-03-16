@@ -1,0 +1,47 @@
+body{
+    background-color:#edf5f8;
+}
+.container{
+    margin-top:3%;
+}
+.navbar{
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+}
+
+.navbar-brand{
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 42px;
+    width: 60px;
+}
+
+.pwd-header{
+    margin-top:10% !important;
+}
+
+.pwd-btn{
+    margin: 5% auto 2% auto;
+    display: block;
+}
+
+.form{
+    vertical-align: middle;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0% 7% 3% 7%;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 4px -1px #888;
+    font-weight: bold;
+    margin-top:10% !important;
+}
+
+.form label{
+    margin-top: 3%;
+}

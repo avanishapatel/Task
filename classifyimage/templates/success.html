@@ -1,0 +1,14 @@
+{% extends "base.html"%} {% load crispy_forms_tags %} {% load static %}
+{% block title %}Success{% endblock %} {% block content %} {% block css %}
+<link
+  href="{% static 'css/frontend/signup.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+
+{% endblock %}
+<div id="parent">
+  <h1>Data Successfully added...</h1>
+</div>
+<script src="/home/avanisha/Workspace/Django/classifyimage/static/js/frontend/signup.js"></script>
+{% endblock %}

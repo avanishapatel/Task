@@ -1,0 +1,81 @@
+{% extends "base.html"%} {% load static %} {% block title %}Home{% endblock %}
+{% block content %} {% block css %}
+<link
+  href="{% static 'css/frontend/home.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  href="{% static 'css/frontend/nav.css' %}"
+  rel="stylesheet"
+  type="text/css"
+/>
+{% endblock %}
+<form method="POST">
+  {% csrf_token %}
+  <h1 id="header">Tag Images</h1>
+  <div class="row">
+    <div class="col-4">
+      <div class="dropdown">
+        <select id="categories" name="categories">
+          {% for i in category %}
+          <option data-second="{{i.category_name }}" value="{{i.id}}">
+            {{i.category_name}}
+          </option>
+          {% endfor %}
+        </select>
+        <div class="left-side">
+          <div id="selecttag">
+            {% for i in tag %}
+            <label value="{{i.category_id}}"
+              >{{i.tag_name}}
+              <input
+                class="radio-input"
+                name="tag"
+                type="radio"
+                value="{{i.id}}"
+            /></label>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-8">
+      <div id="main">
+        <div id="icon">
+          <i class="fa-solid fa-circle-info" title="Tag Images"></i>
+        </div>
+        <div id="select">
+          <input id="selectAll" name="all-checked" type="checkbox" /> Select all
+          photos
+        </div>
+      </div>
+      <div id="getimage" name="getimage">
+        {% for i in image %}
+        <label value="{{i.image_url}}"
+          ><img name="image_url" src="{{i.image_url}}" />
+          <input
+            class="btn-check checkvalue"
+            name="checked-image"
+            type="checkbox"
+            value="{{i.id}}"
+          />
+        </label>
+        <a href="{{i.image_url}}" target="blank"
+          ><i aria-hidden="true" class="fa fa-search image-search"></i
+        ></a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary btn-lg" id="submit-btn" type="submit">
+    Save
+  </button>
+</form>
+
+<script src="{% static 'js/frontend/home.js' %}"></script>
+<script
+  crossorigin="anonymous"
+  src="https://kit.fontawesome.com/d5405f1ba5.js"
+></script>
+{% endblock %}

@@ -1,0 +1,16 @@
+[
+  {
+    "model": "backend.Category",
+    "pk": 1,
+    "fields": {
+      "category_name": "Exterior"
+    }
+  },
+  {
+    "model": "backend.Category",
+    "pk": 2,
+    "fields": {
+      "category_name": "Interior"
+    }
+  }
+]
